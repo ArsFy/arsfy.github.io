@@ -6,7 +6,7 @@
   <link href="https://arsfy.buzz/atom.xml" rel="self"/>
   
   <link href="https://arsfy.buzz/"/>
-  <updated>2022-02-20T11:44:20.929Z</updated>
+  <updated>2022-03-24T14:08:14.705Z</updated>
   <id>https://arsfy.buzz/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>How to repush stream (pull and push)</title>
+    <link href="https://arsfy.buzz/2022/03/24/How-to-repush-stream-pull-and-push/"/>
+    <id>https://arsfy.buzz/2022/03/24/How-to-repush-stream-pull-and-push/</id>
+    <published>2022-03-24T13:57:12.000Z</published>
+    <updated>2022-03-24T14:08:14.705Z</updated>
+    
+    <content type="html"><![CDATA[<p>Things to prepare</p><ul><li>Server or u pc</li><li>ffmpeg</li></ul><blockquote><p><strong>Why do I need to pull Stream and push Stream?</strong><br><br>Relay stream, or use Telegram’s new feature push stream to channel use rtmp</p></blockquote><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">ffmpeg -re <span class="token punctuation">\</span>-i http://xxx.xx/xx.m3u8 <span class="token punctuation">\</span>  <span class="token comment"># input</span>-vcodec copy <span class="token punctuation">\</span>-acodec copy <span class="token punctuation">\</span>-f flv <span class="token punctuation">\</span>-bufsize 12000k <span class="token punctuation">\</span>           <span class="token comment"># bufsize, modify as required</span>-maxrate 8000k <span class="token punctuation">\</span>            <span class="token comment"># maxrate, modify as required</span>-flvflags no_duration_filesize rtmps://xxx.xx/xxx  <span class="token comment"># output</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Things to prepare&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Server or u pc&lt;/li&gt;
+&lt;li&gt;ffmpeg&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Why do I need to pull Stream and push St</summary>
+      
+    
+    
+    
+    
+    <category term="tools" scheme="https://arsfy.buzz/tags/tools/"/>
+    
+  </entry>
   
   <entry>
     <title>Decode webp to png/jpg at Browser JavaScript</title>

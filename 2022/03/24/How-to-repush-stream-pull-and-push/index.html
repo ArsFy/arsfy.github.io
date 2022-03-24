@@ -11,11 +11,11 @@
   <meta charset="utf-8">
 
   
-  <title>All Posts - Arsfy</title>
+  <title>How to repush stream (pull and push)</title>
   
-  <link rel="canonical" href="https://arsfy.buzz/archives/2022/">
+  <link rel="canonical" href="https://arsfy.buzz/2022/03/24/How-to-repush-stream-pull-and-push/">
   
-  <meta name="description" content="Arsfy&#39;s blog, full stack development and algorithm architecture.">
+  <meta name="description" content="Things to prepare  Server or u pc ffmpeg   Why do I need to pull Stream and push Stream?Relay stream, or use Telegram’s new feature push stream to cha">
   
   
   <meta name="keywords" content="code,develop">
@@ -23,28 +23,24 @@
   <meta name="author" content="Arsfy">
   
   
-  <meta property="og:image" content="https://arsfy.buzzhttps://ci.cncn3.cn/436e6034d6d9de33cf42ceaf97d07288.jpg">
-  
   
   <meta property="og:site_name" content="Arsfy&#39;s Blog" />
   <meta property="og:type" content="article" />
-  <meta property="og:title" content="All Posts - Arsfy" />
+  <meta property="og:title" content="How to repush stream (pull and push)" />
   
-  <meta property="og:description" content="Arsfy&#39;s blog, full stack development and algorithm architecture.">
+  <meta property="og:description" content="Things to prepare  Server or u pc ffmpeg   Why do I need to pull Stream and push Stream?Relay stream, or use Telegram’s new feature push stream to cha">
   
-  <meta property="og:url" content="https://arsfy.buzz/archives/2022/" />
+  <meta property="og:url" content="https://arsfy.buzz/2022/03/24/How-to-repush-stream-pull-and-push/" />
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="All Posts - Arsfy">
+  <meta name="twitter:title" content="How to repush stream (pull and push)">
   
-  <meta name="twitter:description" content="Arsfy&#39;s blog, full stack development and algorithm architecture.">
-  
-  
-  
-  <meta name="twitter:image" content="https://arsfy.buzzhttps://ci.cncn3.cn/436e6034d6d9de33cf42ceaf97d07288.jpg">
+  <meta name="twitter:description" content="Things to prepare  Server or u pc ffmpeg   Why do I need to pull Stream and push Stream?Relay stream, or use Telegram’s new feature push stream to cha">
   
   
-  <meta name="twitter:url" content="https://arsfy.buzz/archives/2022/" />
+  
+  
+  <meta name="twitter:url" content="https://arsfy.buzz/2022/03/24/How-to-repush-stream-pull-and-push/" />
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -209,64 +205,58 @@
 </div>
 
         <div class="trans">
-          
-<h2>All Posts</h2>
+            <h2>How to repush stream (pull and push)</h2>
 
+  <p>Things to prepare</p>
+<ul>
+<li>Server or u pc</li>
+<li>ffmpeg</li>
+</ul>
+<blockquote>
+<p><strong>Why do I need to pull Stream and push Stream?</strong><br><br>Relay stream, or use Telegram’s new feature push stream to channel use rtmp</p>
+</blockquote>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">ffmpeg -re <span class="token punctuation">\</span>
+-i http://xxx.xx/xx.m3u8 <span class="token punctuation">\</span>  <span class="token comment"># input</span>
+-vcodec copy <span class="token punctuation">\</span>
+-acodec copy <span class="token punctuation">\</span>
+-f flv <span class="token punctuation">\</span>
+-bufsize 12000k <span class="token punctuation">\</span>           <span class="token comment"># bufsize, modify as required</span>
+-maxrate 8000k <span class="token punctuation">\</span>            <span class="token comment"># maxrate, modify as required</span>
+-flvflags no_duration_filesize rtmps://xxx.xx/xxx  <span class="token comment"># output</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+  <p class="page-info"><a class="classtest-link" href="/tags/tools/" rel="tag">tools</a> — Mar 24, 2022</p>
+  
+  <hr>
+<section id="comments" class="mt-2 mb-3">
 
-    <article>
-      <div class="row">
+  <div id="disqus_thread">
+    <a href="#" class="button button-primary" onclick="loadDisqus();return false;">View / Make Comments</a>
+  </div>
 
-        <div class="three columns left lit">
-          <p class="bottom">Mar 24, 2022</p>
-        </div>
-        <div class="nine columns left mb-3">
-          <a href="/2022/03/24/How-to-repush-stream-pull-and-push/" class="">
-            
-              How to repush stream (pull and push)
-            
-          </a>
-        </div>
-      </div>
-    </article>
+  <script>
+    var disqus_config = function() {
+      this.page.url = 'https://arsfy.buzz/2022/03/24/How-to-repush-stream-pull-and-push/index.html';
+      this.page.identifier = '2022/03/24/How-to-repush-stream-pull-and-push/index.html';
+      this.page.title = 'How to repush stream (pull and push)';
+    };
 
-    <article>
-      <div class="row">
+    var is_disqus_loaded = false;
 
-        <div class="three columns left lit">
-          <p class="bottom">Feb 20, 2022</p>
-        </div>
-        <div class="nine columns left mb-3">
-          <a href="/2022/02/20/Decode-webp-to-png-jpg-at-Browser-JavaScript/" class="">
-            
-              Decode webp to png/jpg at Browser JavaScript
-            
-          </a>
-        </div>
-      </div>
-    </article>
+    function loadDisqus() {
+      if (!is_disqus_loaded) {
+        is_disqus_loaded = true;
 
-    <article>
-      <div class="row">
+        var d = document,
+          s = d.createElement('script');
+        s.src = 'https://arsfys-blog.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      }
+    }
 
-        <div class="three columns left lit">
-          <p class="bottom">Feb 19, 2022</p>
-        </div>
-        <div class="nine columns left mb-3">
-          <a href="/2022/02/19/Recommendation-Algorithm-Based-on-Tag-Multidimensional-Vector/" class="">
-            
-              Recommendation Algorithm Based on Tag Multidimensional Vector
-            
-          </a>
-        </div>
-      </div>
-    </article>
+  </script>
+  <noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
 
-<div class="pagination-bar">
-  <ul class="pagination">
-    
-    
-  </ul>
-</div>
 
 
         </div>
