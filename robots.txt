@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://arsfy.top/sitemap.xml
