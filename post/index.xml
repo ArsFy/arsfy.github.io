@@ -22,7 +22,7 @@
       <pubDate>Sat, 02 Sep 2023 05:12:25 +0800</pubDate>
       
       <guid>https://arsfy.top/post/react-code-structure/</guid>
-      <description>本文寫給入坑 React 時間還不長的新人，我將會在本文中講到： 為什麽在學習 JS 現代前端框架前應該學習原生 HTML, JavaScript, CSS React 是如何渲染頁面的 React 的基本結構 如何使用 React 創</description>
+      <description>本文寫給入坑 React 時間不長，或想要入坑的新人，但是本文不會介紹為甚麼選擇 React 和 React 的優點 1. 為甚麼應該學習原生前端三大件 HTML, Javascript, CSS 是整個前端程式的組成，在</description>
     </item>
     
     <item>
