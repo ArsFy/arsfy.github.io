@@ -6,18 +6,54 @@
     <description>Recent content in Tags on Arsfy&#39; Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 01 Sep 2023 01:26:25 +0800</lastBuildDate><atom:link href="https://arsfy.top/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Feb 2024 05:36:56 +0800</lastBuildDate><atom:link href="https://arsfy.top/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>backend</title>
+      <title>Algorithm</title>
+      <link>https://arsfy.top/tags/algorithm/</link>
+      <pubDate>Mon, 12 Feb 2024 05:36:56 +0800</pubDate>
+      
+      <guid>https://arsfy.top/tags/algorithm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Backend</title>
       <link>https://arsfy.top/tags/backend/</link>
-      <pubDate>Fri, 01 Sep 2023 01:26:25 +0800</pubDate>
+      <pubDate>Mon, 12 Feb 2024 05:36:56 +0800</pubDate>
       
       <guid>https://arsfy.top/tags/backend/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>linux</title>
+      <title>Golang</title>
+      <link>https://arsfy.top/tags/golang/</link>
+      <pubDate>Mon, 12 Feb 2024 05:36:56 +0800</pubDate>
+      
+      <guid>https://arsfy.top/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Frontend</title>
+      <link>https://arsfy.top/tags/frontend/</link>
+      <pubDate>Sat, 02 Sep 2023 05:12:25 +0800</pubDate>
+      
+      <guid>https://arsfy.top/tags/frontend/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>React</title>
+      <link>https://arsfy.top/tags/react/</link>
+      <pubDate>Sat, 02 Sep 2023 05:12:25 +0800</pubDate>
+      
+      <guid>https://arsfy.top/tags/react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
       <link>https://arsfy.top/tags/linux/</link>
       <pubDate>Fri, 01 Sep 2023 01:26:25 +0800</pubDate>
       
@@ -26,7 +62,7 @@
     </item>
     
     <item>
-      <title>pve</title>
+      <title>PVE</title>
       <link>https://arsfy.top/tags/pve/</link>
       <pubDate>Fri, 01 Sep 2023 01:26:25 +0800</pubDate>
       
